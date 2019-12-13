@@ -1,0 +1,11 @@
+server:
+  port: 8020
+
+security:
+  oauth2:
+    client:
+      client-id: frontend
+      client-secret: secret
+    resource:
+      jwt:
+        key-value: simetric
